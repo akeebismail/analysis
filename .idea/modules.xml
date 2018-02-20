@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dashbaord/dashbaord.iml" filepath="$PROJECT_DIR$/.idea/modules/dashbaord/dashbaord.iml" group="dashbaord" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dashbaord/dashbaord_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dashbaord/dashbaord_main.iml" group="dashbaord" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dashbaord/dashbaord_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dashbaord/dashbaord_test.iml" group="dashbaord" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kibb.iml" filepath="$PROJECT_DIR$/.idea/modules/kibb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sense/sense.iml" filepath="$PROJECT_DIR$/.idea/modules/sense/sense.iml" group="sense" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sense/sense_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sense/sense_main.iml" group="sense" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sense/sense_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sense/sense_test.iml" group="sense" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service.iml" group="service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service_main.iml" group="service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service_test.iml" group="service" />
+    </modules>
+  </component>
+</project>

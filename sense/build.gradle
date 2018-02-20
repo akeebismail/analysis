@@ -1,0 +1,11 @@
+dependencies {
+    compile project(':service')
+    compile 'org.eclipse.jetty.websocket:javax-websocket-server-impl:9.2.6.v20141205'
+}
+
+sourceSets {
+    test {
+        groovy.srcDirs = ['src/test/unit']
+        java.srcDirs = ['src/test/system']
+    }
+}
