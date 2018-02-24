@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":sense:test" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="kibb" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":service:test" external.linked.project.path="$MODULE_DIR$/../../../../service" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="kibb" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output-test url="file://$MODULE_DIR$/../../out/test/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../service/out/test/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../src/test/system" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../src/test/unit" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../src/test/resources" type="java-test-resource" />
+    <content url="file://$MODULE_DIR$/../../../../service/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../service/src/test/system" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../service/src/test/unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../service/src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="sense_main" />
     <orderEntry type="module" module-name="service_main" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:javax-websocket-server-impl:9.2.6.v20141205" level="project" />
     <orderEntry type="library" name="Gradle: org.spockframework:spock-core:0.7-groovy-2.0" level="project" />
@@ -43,5 +42,5 @@
     <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.2.6.v20141205" level="project" />
     <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="sense_main" />
+  <component name="TestModuleProperties" production-module="service_main" />
 </module>
