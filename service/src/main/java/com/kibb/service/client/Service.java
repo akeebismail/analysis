@@ -33,9 +33,25 @@ public class Service implements Runnable {
         LOGGER.setLevel(Level.FINE);
 
         try{
+            BroadCastingServiceEndpoint<String> broadCastingServiceEndpoint = new BroadCastingServiceEndpoint<>();
+            // create a client endpoint that connects to the given server endpoint and puts all messages through the message handler
+            clientEndpoint = new ClientEndpoint<>(endPointToConnectTo, messageHandler);
+            clientEndpoint.addListener(broadCastingServiceEndpoint);
+            clientEndpoint.connect();
 
-        }catch (){
+            // run the Jetty server for the server endpoint that clients will connect to. Tne endpoint simply informs
+            // all listeners of all messages
 
+            webSocketServer = new WebSocketServer(serviceEndPointPath, servicePort,broadCastingServiceEndpoint);
+            webSocketServer.run();
+        }catch (Exception e){
+            //This is where more sensible error handling will be done
+            LOGGER.severe(e.getMessage());
         }
+    }
+
+    public void stop() throws Exception{
+        clientEndpoint.close();
+        webSocketServer.stop();
     }
 }
