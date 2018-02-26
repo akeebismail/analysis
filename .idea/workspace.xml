@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0d4405a-f225-4a5c-87d8-4ec98e845936" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/dashboard/.idea/compiler.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dashboard/.idea/gradle.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dashboard/.idea/libraries/Gradle__javax_json_javax_json_api_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dashboard/.idea/libraries/Gradle__javax_websocket_javax_websocket_api_1_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dashboard/.idea/libraries/Gradle__org_glassfish_javax_json_1_0_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dashboard/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dashboard/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dashboard/.idea/modules/dashboard.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dashboard/.idea/modules/dashboard_main.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dashboard/.idea/modules/dashboard_test.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dashboard/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dashboard/build.gradle" afterPath="$PROJECT_DIR$/dashboard/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/dashboard/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/dashboard/gradle/wrapper/gradle-wrapper.properties" />
+      <change beforePath="$PROJECT_DIR$/dashboard/.idea/workspace.xml" afterPath="$PROJECT_DIR$/dashboard/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/comm/kibb/dashboard/Dashboard.java" afterPath="$PROJECT_DIR$/dashboard/src/main/java/comm/kibb/dashboard/Dashboard.java" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/comm/kibb/dashboard/DashboardController.java" afterPath="$PROJECT_DIR$/dashboard/src/main/java/comm/kibb/dashboard/DashboardController.java" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/comm/kibb/dashboard/user/LeaderBoardController.java" afterPath="$PROJECT_DIR$/dashboard/src/main/java/comm/kibb/dashboard/user/LeaderBoardController.java" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/comm/kibb/dashboard/user/LeaderBoardData.java" afterPath="$PROJECT_DIR$/dashboard/src/main/java/comm/kibb/dashboard/user/LeaderBoardData.java" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/java/comm/kibb/dashboard/user/TwitterUser.java" afterPath="$PROJECT_DIR$/dashboard/src/main/java/comm/kibb/dashboard/user/TwitterUser.java" />
+      <change beforePath="$PROJECT_DIR$/dashboard/src/main/resources/com/kibb/twitter/dashboard/dashboard.fxml" afterPath="$PROJECT_DIR$/dashboard/src/main/resources/com/kibb/twitter/dashboard/dashboard.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -1244,12 +1236,12 @@
       <workItem from="1518960192329" duration="3099000" />
       <workItem from="1519481527815" duration="4866000" />
       <workItem from="1519486760770" duration="5237000" />
-      <workItem from="1519665368489" duration="4616000" />
+      <workItem from="1519665368489" duration="5442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17818000" />
+    <option name="totallyTimeSpent" value="18644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
@@ -1265,7 +1257,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30757576" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />

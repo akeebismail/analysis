@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.kibb.twitter.dashboard.Happy"
-            prefHeight="400.0" prefWidth="600.0">
-
-</AnchorPane>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml"
+      spacing="10" alignment="CENTER"
+      fx:controller="comm.kibb.dashboard.mood.HappinessController">
+    <BarChart fx:id="happinessOverTime" title="Happiness Over Time" prefHeight="600" legendVisible="false" barGap="1">
+        <xAxis>
+            <CategoryAxis label="Minute" animated="false"/>
+        </xAxis>
+        <yAxis>
+            <NumberAxis fx:id="yAxis" label="Count" minorTickVisible="false"/>
+        </yAxis>
+    </BarChart>
+</VBox>
