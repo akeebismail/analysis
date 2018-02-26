@@ -1,7 +1,7 @@
 
 dependencies {
 
-    //compile project(':service')
+    compile project(':service')
     compile 'javax.websocket:javax.websocket-api:1.1'
     compile 'javax.json:javax.json-api:1.0'
     compile 'org.glassfish:javax.json:1.0.4'
